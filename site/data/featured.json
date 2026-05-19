@@ -1,6 +1,15 @@
 {
   "technology": [
     {
+      "title": "10 Tips on Giving Standout Talks at Developer Conferences",
+      "url": "https://nordicapis.com/10-tips-on-giving-standout-talks-at-developer-conferences/",
+      "date": "2026-02-19",
+      "publication": "Nordic APIs",
+      "description": "by Bill Doerrfeld",
+      "tags": ["speaking", "developer-conferences", "talks"],
+      "source_url": "https://nordicapis.com/10-tips-on-giving-standout-talks-at-developer-conferences/"
+    },
+    {
       "title": "A Year's Evolution of AI and APIs: A World Apart",
       "url": "https://nordicapis.com/a-years-evolution-of-ai-and-apis-a-world-apart/",
       "date": "2025-09-15",
