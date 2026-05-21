@@ -4,18 +4,18 @@ date: 2025-09-22
 ---
 
 <div class="photo-gallery">
-  <figure><img src="/images/HtG17-SBH_8978.webp" alt="Hack the Gap 2017" loading="lazy"></figure>
-  <figure><img src="/images/screenshot-2015-01-28.webp" alt="Reading stories to my son's class in Sign Language" loading="lazy"></figure>
-  <figure><img src="/images/api-strat-2015.jpeg" alt="Speaking at APIStrat" loading="lazy"></figure>
-  <figure><img src="/images/IMG_1658.webp" alt="Photo" loading="lazy"></figure>
-  <figure><img src="/images/IMG_8352.webp" alt="Photo" loading="lazy"></figure>
-  <figure><img src="/images/kristen-womack.jpeg" alt="Kristen Womack" loading="lazy"></figure>
-  <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
-  <figure><img src="/images/HtG19-SBH_3479.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
-  <figure><img src="/images/HtG19-SBH_3638.jpeg" alt="Hack the Gap 2019" loading="lazy"></figure>
-  <figure><img src="/images/2018HTG.jpeg" alt="Hack the Gap 2018" loading="lazy"></figure>
-  <figure><img src="/images/IMG_7885.png" alt="Photo" loading="lazy"></figure>
-  <figure><img src="/images/IMG_0629.png" alt="Photo" loading="lazy"></figure>
+  <figure><img src="/images/HtG17-SBH_8978.webp" alt="Kristen speaks into a handheld mic on stage at Hack the Gap 2017, a co-host beside her." loading="lazy"></figure>
+  <figure><img src="/images/screenshot-2015-01-28.webp" alt="Kristen signs a children's story in American Sign Language during storytime." loading="lazy"></figure>
+  <figure><img src="/images/api-strat-2015.jpeg" alt="Kristen presents at APIStrat 2015, slide behind her reading 'your API & simple apps'." loading="lazy"></figure>
+  <figure><img src="/images/IMG_1658.webp" alt="Kristen holds up her judge badge at Launch's hackathon." loading="lazy"></figure>
+  <figure><img src="/images/IMG_8352.webp" alt="The Minneapolis/St. Paul Business Journal '40 Under 40' 2016 honoree poster, Kristen among the nine portraits." loading="lazy"></figure>
+  <figure><img src="/images/kristen-womack.jpeg" alt="Portrait of Kristen in a mustard-yellow sweater against a yellow wall, a fiddle-leaf fig beside her." loading="lazy"></figure>
+  <figure><img src="/images/HtG19-SBH_5943.jpeg" alt="Kristen holds a small child while talking with a colleague at Hack the Gap 2019." loading="lazy"></figure>
+  <figure><img src="/images/HtG19-SBH_3479.jpeg" alt="Three Hack the Gap 2019 co-organizers stand together, one holding a toddler in a green dress." loading="lazy"></figure>
+  <figure><img src="/images/HtG19-SBH_3638.jpeg" alt="Group photo of Hack the Gap 2019 participants and organizers gathered at the event venue." loading="lazy"></figure>
+  <figure><img src="/images/2018HTG.jpeg" alt="Four Hack the Gap 2018 organizers pose together against a dark backdrop." loading="lazy"></figure>
+  <figure><img src="/images/IMG_7885.png" alt="Kristen holds a coffee mug behind her sticker-covered laptop, stickers including Geekettes, COCO, and DevRel." loading="lazy"></figure>
+  <figure><img src="/images/IMG_0629.png" alt="Photo of Kristen and a friend smiling outdoors, sunglasses on, drinks in hand." loading="lazy"></figure>
 </div>
 
 Hi, I'm Kristen 👋🏼
