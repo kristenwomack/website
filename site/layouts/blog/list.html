@@ -1,19 +1,35 @@
 {{ define "title" }}Blog - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<article>
+<div class="page">
+
+  <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
+
   <h1>{{ .Title }}</h1>
+  <p class="subtitle">short-form posts, notes, and thinking out loud</p>
 
-  {{ .Content }}
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
 
-  <ul class="post-list">
+  <ul class="cards">
     {{ range .Pages.ByDate.Reverse }}
-    <li>
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
-      {{ with .Params.summary }}<p>{{ . }}</p>{{ else }}{{ with .Summary }}<p>{{ . | plainify }}</p>{{ end }}{{ end }}
-    </li>
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span class="name">{{ .Title }}</span>
+          <span class="meta">
+            <span class="date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          </span>
+          {{ with .Params.summary }}<span class="desc">{{ . }}</span>{{ else }}{{ with .Summary }}<span class="desc">{{ . | plainify }}</span>{{ end }}{{ end }}
+        </a>
+      </li>
     {{ end }}
   </ul>
-</article>
+
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | relURL }}">about</a> &nbsp;·&nbsp;
+    <a href="{{ "/writing/" | relURL }}">writing</a> &nbsp;·&nbsp;
+    <a href="mailto:hello@kristenwomack.io">mail</a>
+  </p>
+
+</div>
 {{ end }}

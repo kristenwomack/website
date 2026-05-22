@@ -1,0 +1,22 @@
+<button class="theme-toggle" type="button" aria-label="Toggle light or dark theme">◐ light</button>
+<script>
+(function(){
+  function refresh() {
+    var t = document.documentElement.getAttribute('data-theme') || 'dark';
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    btn.textContent = t === 'dark' ? '◐ light' : '☼ dark';
+    btn.setAttribute('aria-pressed', t === 'light' ? 'true' : 'false');
+  }
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('.theme-toggle');
+    if (!btn) return;
+    var cur = document.documentElement.getAttribute('data-theme');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch(e) {}
+    refresh();
+  });
+  refresh();
+})();
+</script>

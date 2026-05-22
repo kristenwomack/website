@@ -1,14 +1,23 @@
 {{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<article>
-  <h1>{{ .Title }}</h1>
-  <p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>
+<div class="page">
 
-  <div class="post-content">
+  <p><a class="back" href="{{ "/blog/" | relURL }}">← back to blog</a></p>
+
+  <h1>{{ .Title }}</h1>
+  <p class="subtitle">{{ .Date.Format "January 2, 2006" }}</p>
+
+  <div class="prose">
     {{ .Content }}
   </div>
 
-  <p><a href="{{ "/blog/" | relURL }}">← Back to blog</a></p>
-</article>
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/blog/" | relURL }}">blog</a> &nbsp;·&nbsp;
+    <a href="{{ "/writing/" | relURL }}">writing</a> &nbsp;·&nbsp;
+    <a href="mailto:hello@kristenwomack.io">mail</a>
+  </p>
+
+</div>
 {{ end }}

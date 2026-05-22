@@ -1,0 +1,11 @@
+<script>
+(function(){
+  try {
+    var s = localStorage.getItem('theme');
+    var t = (s === 'light' || s === 'dark') ? s : 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  } catch(e) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>

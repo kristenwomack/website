@@ -1,71 +1,82 @@
 {{ define "title" }}Writing - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<article>
+<div class="page">
+
+  <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
+
   <h1>Writing</h1>
+  <p class="subtitle">a collection of published writing &mdash; technology, the human experience, and the spaces between</p>
 
-  <p>This page is a collection of my published writing. My interests span many things. Here you'll find this is a collection of varied topics from technology to the human experience.</p>
-
-  <h2>API Articles &amp; Blog Posts</h2>
-  <ul>
+  <h2>API articles &amp; blog posts</h2>
+  <ul class="cards">
     {{ range .Site.Data.writing.api_articles }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-  {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-  <h2>Birth, Reproductive Health, &amp; Building Mina</h2>
-  <ul>
+  <h2>Birth, reproductive health, &amp; Mina</h2>
+  <ul class="cards">
     {{ range .Site.Data.writing.birth_reproductive_health }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-  {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-  <h2>Substacks &amp; Newsletters</h2>
-  <ul>
+  <h2>Substacks &amp; newsletters</h2>
+  <ul class="cards">
     {{ range .Site.Data.writing.substacks }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">ongoing</span>
+          </span>
+        </a>
+      </li>
     {{ end }}
   </ul>
 
   <h2>Archive</h2>
-  <p>Most of these articles are now 404 links and serve more as a list for me to remember the things I wrote about in historical context even though they no longer exist on the Internet.</p>
-  <ul>
+  <p>Most of these articles are now 404 links and serve more as a list for me to remember the things I wrote about in historical context, even though they no longer exist on the internet.</p>
+  <ul class="cards">
     {{ range .Site.Data.writing.archived }}
-    <li>
-      {{ if .source_url }}
-        <strong><a href="{{ .source_url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-  {{ with .publication }}<br>{{ . }}{{ end }}
-  {{ if .date }}{{ if .publication }} | {{ end }}{{ dateFormat "1/2/06" .date }}{{ end }}
-    </li>
+      <li>
+        <a {{ with .source_url }}href="{{ . }}" target="_blank" rel="noopener"{{ else }}{{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            {{ with .publication }}<span class="pub">{{ . }}</span>{{ end }}
+            {{ if and .publication .date }}<span>·</span>{{ end }}
+            {{ if .date }}<span class="date">{{ dateFormat "Jan 2006" .date }}</span>{{ end }}
+          </span>
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-</article>
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | relURL }}">about</a> &nbsp;·&nbsp;
+    <a href="{{ "/featured/" | relURL }}">featured</a> &nbsp;·&nbsp;
+    <a href="mailto:hello@kristenwomack.io">mail</a>
+  </p>
+
+</div>
 {{ end }}

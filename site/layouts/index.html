@@ -1,9 +1,83 @@
 {{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "body-class" }}h-home{{ end }}
 
 {{ define "main" }}
-  <section class="hero">
-    <img src="{{ "/images/headshot.jpg" | relURL }}" alt="Kristen Womack" class="headshot" loading="eager">
-    <h1>{{ .Site.Title }}</h1>
-    <p class="tagline">Product leader, technologist, and community builder. Writing about APIs, developer experience, agentic systems, and platform strategy.</p>
-  </section>
+<div class="term">
+
+  <h1 class="sr-only">Kristen Womack</h1>
+
+  <pre class="ascii" aria-hidden="true">
+   ██╗  ██╗ ██████╗  ██╗ ███████╗ ████████╗ ███████╗ ███╗   ██╗
+   ██║ ██╔╝ ██╔══██╗ ██║ ██╔════╝ ╚══██╔══╝ ██╔════╝ ████╗  ██║
+   █████╔╝  ██████╔╝ ██║ ███████╗    ██║    █████╗   ██╔██╗ ██║
+   ██╔═██╗  ██╔══██╗ ██║ ╚════██║    ██║    ██╔══╝   ██║╚██╗██║
+   ██║  ██╗ ██║  ██║ ██║ ███████║    ██║    ███████╗ ██║ ╚████║
+   ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝ ╚══════╝    ╚═╝    ╚══════╝ ╚═╝  ╚═══╝
+   ██╗    ██╗  ██████╗  ███╗   ███╗  █████╗   ██████╗ ██╗  ██╗
+   ██║    ██║ ██╔═══██╗ ████╗ ████║ ██╔══██╗ ██╔════╝ ██║ ██╔╝
+   ██║ █╗ ██║ ██║   ██║ ██╔████╔██║ ███████║ ██║      █████╔╝
+   ██║███╗██║ ██║   ██║ ██║╚██╔╝██║ ██╔══██║ ██║      ██╔═██╗
+   ╚███╔███╔╝ ╚██████╔╝ ██║ ╚═╝ ██║ ██║  ██║ ╚██████╗ ██║  ██╗
+    ╚══╝╚══╝   ╚═════╝  ╚═╝     ╚═╝ ╚═╝  ╚═╝  ╚═════╝ ╚═╝  ╚═╝
+
+         o__                              o__
+       _,&gt;/ _                           _,&gt;/ _
+       (_)\(_)                         (_)\_│░░│_(_)
+   ══════════════════════════════════════════════════════════
+       product &middot; platforms &middot; books &middot; bikes &middot; outdoors
+   ══════════════════════════════════════════════════════════</pre>
+
+  <div class="section">
+    <p class="prompt cmd">cat ~/about.md | head -3</p>
+    <p class="out">Hi, I'm Kristen. I build products and tools for makers and builders &mdash; developers, startups, and SMBs. I've been working on APIs since 2008. Over seventeen years I've led API platforms, developer programs, and product teams at companies ranging from scrappy startups to some of the most recognizable names in tech. AFK: books, bikes, and trails.</p>
+  </div>
+
+  <div class="section">
+    <p class="prompt cmd">ls ~/</p>
+    <h2>sections</h2>
+    <ul class="sections">
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/about/" | relURL }}">about/</a>
+        <span class="desc">the longer story, the gallery, the nice things people said</span>
+      </li>
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/writing/" | relURL }}">writing/</a>
+        <span class="desc">api articles, essays, archive &mdash; published since 2011</span>
+      </li>
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/talks/" | relURL }}">talks/</a>
+        <span class="desc">conference and keynote talks</span>
+      </li>
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/papers/" | relURL }}">papers/</a>
+        <span class="desc">long-form pieces and whitepapers</span>
+      </li>
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/featured/" | relURL }}">featured/</a>
+        <span class="desc">selected interviews, articles, and press</span>
+      </li>
+      <li>
+        <span class="marker">→</span>
+        <a href="{{ "/blog/" | relURL }}">blog/</a>
+        <span class="desc">shorter posts, notes, and thinking out loud</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <span>&copy; {{ now.Format "2006" }} kristen womack</span>
+    <span>
+      <a href="mailto:hello@kristenwomack.io">mail</a>
+      <a href="https://github.com/kristenwomack">github</a>
+      <a href="https://www.linkedin.com/in/kristenwomack">linkedin</a>
+      <a href="{{ "/index.xml" | relURL }}">rss</a>
+    </span>
+  </div>
+
+</div>
 {{ end }}

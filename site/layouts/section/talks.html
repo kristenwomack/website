@@ -1,8 +1,0 @@
-{{ define "main" }}
-<h1>Talks</h1>
-<ul>
-  {{ range .Pages.ByDate.Reverse }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> — {{ .Date.Format "2006-01-02" }}</li>
-  {{ end }}
-</ul>
-{{ end }}
