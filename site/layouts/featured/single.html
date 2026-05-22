@@ -1,74 +1,86 @@
 {{ define "title" }}Featured Work - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-<article>
-  <h1>Featured Work</h1>
+<div class="page">
 
-  <p>This page is a list of interviews, articles, awards, and press coverage about my work over the years. Thank you to everyone who has given a spotlight to the things I've built and the people I've built them with.</p>
+  <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
+
+  <h1>Featured Work</h1>
+  <p class="subtitle">interviews, articles, awards, and press coverage over the years</p>
 
   <h2>Technology</h2>
-  <ul>
+  <ul class="cards">
     {{ range .Site.Data.featured.technology }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-      {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-      {{ with .description }}<br>{{ . }}{{ end }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+          {{ with .description }}<span class="desc">{{ . }}</span>{{ end }}
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-  <h2>Career + Community</h2>
-  <ul>
+  <h2>Career and community</h2>
+  <ul class="cards">
     {{ range .Site.Data.featured.career_community }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-      {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-      {{ with .description }}<br>{{ . }}{{ end }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+          {{ with .description }}<span class="desc">{{ . }}</span>{{ end }}
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-  <h2>Hack the Gap + Women in Tech</h2>
-  <ul>
+  <h2>Hack the Gap and women in tech</h2>
+  <ul class="cards">
     {{ range .Site.Data.featured.hack_the_gap_women_in_tech }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-      {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-      {{ with .description }}<br>{{ . }}{{ end }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+          {{ with .description }}<span class="desc">{{ . }}</span>{{ end }}
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-  <h2>Birth, Reproductive Health, &amp; Building Mina</h2>
-  <ul>
+  <h2>Birth, reproductive health, and Mina</h2>
+  <ul class="cards">
     {{ range .Site.Data.featured.birth_reproductive_health }}
-    <li>
-      {{ if .url }}
-        <strong><a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
-      {{ else }}
-        <strong>{{ .title }}</strong>
-      {{ end }}
-      <br>
-      {{ .publication }} | {{ dateFormat "1/2/06" .date }}
-      {{ with .description }}<br>{{ . }}{{ end }}
-    </li>
+      <li>
+        <a {{ with .url }}href="{{ . }}" target="_blank" rel="noopener"{{ end }}>
+          <span class="name">{{ .title }}</span>
+          <span class="meta">
+            <span class="pub">{{ .publication }}</span>
+            <span>·</span>
+            <span class="date">{{ dateFormat "Jan 2006" .date }}</span>
+          </span>
+          {{ with .description }}<span class="desc">{{ . }}</span>{{ end }}
+        </a>
+      </li>
     {{ end }}
   </ul>
 
-</article>
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | relURL }}">about</a> &nbsp;·&nbsp;
+    <a href="{{ "/writing/" | relURL }}">writing</a>
+  </p>
+
+</div>
 {{ end }}

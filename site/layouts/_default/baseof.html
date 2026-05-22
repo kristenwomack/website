@@ -24,24 +24,12 @@
 
     <link rel="icon" type="image/svg+xml" href="{{ "/favicon.svg" | relURL }}" />
     <link rel="apple-touch-icon" href="{{ "/images/headshot.jpg" | relURL }}" />
+    {{ partial "theme-init.html" . }}
     <link rel="stylesheet" href="{{ "/css/styles.css" | relURL }}" />
     {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}" />{{ end }}
   </head>
-  <body>
-    <header>
-      <div class="site-header">
-        <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
-        {{ partial "nav.html" . }}
-      </div>
-    </header>
-
-    <main role="main">
-      {{ block "main" . }}{{ end }}
-    </main>
-
-    <footer>
-      <p><a href="mailto:hello@kristenwomack.io">hello@kristenwomack.io</a></p>
-      <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}</p>
-    </footer>
+  <body class="{{ block "body-class" . }}h-interior{{ end }}">
+    {{ partial "theme-toggle.html" . }}
+    {{ block "main" . }}{{ end }}
   </body>
 </html>

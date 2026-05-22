@@ -1,10 +1,24 @@
 {{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
 
 {{ define "main" }}
-  <article>
-    <h1>{{ .Title }}</h1>
-    {{ if eq .Section "blog" }}<p class="post-meta">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
-    <div>{{ .Content }}</div>
-    {{ with .Params.source_url }}<footer><p>Source: <a href="{{ . }}">{{ . }}</a></p></footer>{{ end }}
-  </article>
+<div class="page">
+
+  <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
+
+  <h1>{{ .Title }}</h1>
+  {{ if eq .Section "blog" }}<p class="subtitle">{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.source_url }}<p class="note">Source: <a href="{{ . }}">{{ . }}</a></p>{{ end }}
+
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | relURL }}">about</a> &nbsp;·&nbsp;
+    <a href="{{ "/writing/" | relURL }}">writing</a>
+  </p>
+
+</div>
 {{ end }}
