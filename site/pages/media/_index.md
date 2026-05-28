@@ -1,11 +1,11 @@
 ---
 title: "Media"
-_build:
+build:
   render: never
   list: never
   publishResources: false
 cascade:
-  _build:
+  build:
     render: never
     list: never
     publishResources: false

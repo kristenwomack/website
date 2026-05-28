@@ -2,6 +2,7 @@ baseURL = "https://kristenwomack.github.io/"
 languageCode = "en-us"
 title = "Kristen Womack"
 contentDir = "pages"
+disableKinds = ["taxonomy", "term"]
 
 [params]
   author = "Kristen Womack"
@@ -9,8 +10,6 @@ contentDir = "pages"
 
 [outputs]
   home = ["HTML", "RSS"]
-
-disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [markup]
   [markup.goldmark]
