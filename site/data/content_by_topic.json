@@ -40,23 +40,5 @@
       "tags": ["startup", "education", "speaking"],
       "source_url": ""
     }
-  ],
-  "papers": [
-    {
-      "title": "API Development Articles",
-      "date": "2016-01-01",
-      "publication": "Runscope (acquired by CA Technologies)",
-      "description": "Writing on API development topics",
-      "tags": ["api", "development", "technical-writing"],
-      "source_url": ""
-    },
-    {
-      "title": "Team Management Articles", 
-      "date": "2016-01-01",
-      "publication": "Hitch (acquired by New Relic)",
-      "description": "Writing on team management topics",
-      "tags": ["management", "leadership", "technical-writing"],
-      "source_url": ""
-    }
   ]
 }
