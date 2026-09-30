@@ -1,4 +1,4 @@
-# Personal website repo for kristenwomack.io
+# Personal website kristenwomack.io
 
 Hello! Welcome. This is my personal website which showcases my writing, featured work, talks, papers, media mentions, etc.
 
