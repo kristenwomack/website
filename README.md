@@ -2,10 +2,6 @@
 
 Hello! Welcome. This is my personal website which showcases my writing, featured work, talks, papers, media mentions, etc.
 
-If you see anything broken or could be improved, please send a PR or file an issue.
-
-If you want to build a similar style site, here is the architecture of the site and repo organization:
-
 ## Structure
 
 - **Hugo Site**: Static site generator for fast, modern web development
