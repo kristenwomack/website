@@ -1,44 +1,349 @@
 {
-  "talks": [
-    {
-      "title": "Speaker at Target Event",
-      "date": "2016-01-01",
-      "event": "Target",
-      "description": "Featured speaker at Target-hosted event",
-      "tags": ["speaking", "leadership"],
-      "source_url": ""
-    },
-    {
-      "title": "Product Development Management Association Speaker",
-      "date": "2016-01-01", 
-      "event": "Product Development Management Association",
-      "description": "Featured speaker at PDMA event",
-      "tags": ["product", "management", "speaking"],
-      "source_url": ""
-    },
-    {
-      "title": "The Nerdery Event Speaker",
-      "date": "2016-01-01",
-      "event": "The Nerdery",
-      "description": "Featured speaker at The Nerdery event",
-      "tags": ["technology", "speaking"],
-      "source_url": ""
-    },
-    {
-      "title": "Film Society of Minneapolis St. Paul Panelist",
-      "date": "2016-01-01",
-      "event": "Film Society of Minneapolis St. Paul",
-      "description": "Featured panelist at Film Society event",
-      "tags": ["panel", "speaking"],
-      "source_url": ""
-    },
-    {
-      "title": "Twin Cities Startup Weekend Education Speaker",
-      "date": "2016-01-01",
-      "event": "Twin Cities Startup Weekend Education",
-      "description": "Featured speaker at startup education event",
-      "tags": ["startup", "education", "speaking"],
-      "source_url": ""
-    }
-  ]
+  "talks": {
+    "upcoming": [],
+    "past": [
+      {
+        "title": "Nordic APIs",
+        "event": "Nordic APIs Platform Summit",
+        "date": "2025-10-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://nordicapis.com/events/platform-summit-2025/"
+      },
+      {
+        "title": "Deploy an app with AI vision capabilities",
+        "event": "Open at Microsoft",
+        "date": "2025-01-13",
+        "description": "",
+        "tags": [
+          "speaking",
+          "ai"
+        ],
+        "source_url": "https://youtu.be/NNy6qPMAg60?si=IgoXSZ10et2LPGb3"
+      },
+      {
+        "title": "Microsoft Ignite",
+        "event": "Microsoft Ignite",
+        "date": "2024-11-21",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://ignite.microsoft.com/en-US/sessions/0c222358-fd2b-4f6f-b5f2-e113d60eae58"
+      },
+      {
+        "title": "GitHub Universe",
+        "event": "GitHub Universe",
+        "date": "2024-10-30",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://reg.githubuniverse.com/flow/github/universe24/attendee-portal/page/sessioncatalog/session/1722975257185001oCrC"
+      },
+      {
+        "title": "From Zero to AI: Building Smarter Apps with AI API Integrations",
+        "event": "Nordic APIs Platform Summit",
+        "date": "2024-10-08",
+        "description": "",
+        "tags": [
+          "speaking",
+          "ai"
+        ],
+        "source_url": "https://nordicapis.com/events/platform-summit-2024/"
+      },
+      {
+        "title": "Developer Experience Panel Discussion",
+        "event": "Nordic APIs Platform Summit",
+        "date": "2024-10-07",
+        "description": "",
+        "tags": [
+          "speaking",
+          "panel"
+        ],
+        "source_url": "https://nordicapis.com/sessions/developer-experience-panel-discussion/"
+      },
+      {
+        "title": "Building and Deploying Cloud Native Gen AI Apps at Microsoft",
+        "event": "Arize Observe 2024 | San Francisco, CA",
+        "date": "2024-07-01",
+        "description": "",
+        "tags": [
+          "speaking",
+          "ai"
+        ],
+        "source_url": "https://arize.com/resource/building-and-deploying-cloud-native-gen-ai-apps-at-microsoft/"
+      },
+      {
+        "title": "</> Code Conundrum, Deciding Between Build vs Buy and Beyond",
+        "event": "Panelist | MN",
+        "date": "2024-03-14",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Applied AI for Product Management",
+        "event": "AppliedAI | Minneapolis, MN",
+        "date": "2023-11-17",
+        "description": "",
+        "tags": [
+          "speaking",
+          "ai"
+        ],
+        "source_url": "https://www.meetup.com/applied_ai/events/297194617/"
+      },
+      {
+        "title": "Level Up Your Developer Experience",
+        "event": "Nordic APIs Platform Summit | Stockholm, Sweden",
+        "date": "2023-10-17",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://kristenwomack.io/s/nordic-apis-platform-summit-2023"
+      },
+      {
+        "title": "Meet the Microsoft Graph Product Group Leaders",
+        "event": "Microsoft Reactor",
+        "date": "2022-11-08",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://www.youtube.com/live/jxy5Uu44fgE?si=O9XlABp3KPr_U4_U"
+      },
+      {
+        "title": "API Storytelling - Episode with Kristen Womack",
+        "event": "API Storytelling with Kin Lane",
+        "date": "2021-03-26",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://www.youtube.com/watch?v=5_IGzREJD5c"
+      },
+      {
+        "title": "Software Engineering Masters Program Panel - Project Management and Design Thinking",
+        "event": "U of M",
+        "date": "2019-12-13",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Visiting Expert Speaker",
+        "event": "Women's Health Integrative Research Center, St. Catherine University",
+        "date": "2019-11-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Founder Friendly Alternatives to VC",
+        "event": "",
+        "date": "2019-05-22",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://www.eventbrite.com/e/founder-friendly-alternatives-to-vc-tickets-61586900076"
+      },
+      {
+        "title": "Panel Discussion: How to market XP (extreme programming)",
+        "event": "",
+        "date": "2019-01-10",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Software Engineering Masters Program Panel - Project Management and Design Thinking",
+        "event": "U of M",
+        "date": "2018-12-15",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Improve Your Product Roadmap with DevOps",
+        "event": "DevOpsCon Munich, Germany",
+        "date": "2018-12-04",
+        "description": "",
+        "tags": [
+          "speaking",
+          "devops"
+        ],
+        "source_url": "https://devopsconference.de/logging-monitoring-analytics/improve-your-product-roadmap-with-devops/"
+      },
+      {
+        "title": "Influencing Without Authority",
+        "event": "The Schmidt List: Live Podcast Recording",
+        "date": "2018-10-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "https://www.schmidt-list.com/podcast/2018/10/4/influencing-without-authority-live-recording-of-the-schmidt-list-podcast"
+      },
+      {
+        "title": "Where are the women in tech?",
+        "event": "Minnesota Public Radio Interview",
+        "date": "2018-06-25",
+        "description": "",
+        "tags": [
+          "interview"
+        ],
+        "source_url": "https://www.mprnews.org/story/2018/06/25/where-are-the-women-in-tech"
+      },
+      {
+        "title": "Logs & Alerts, Not Just For Ops",
+        "event": "DevOps Days Minneapolis Ignite Talk",
+        "date": "2017-07-25",
+        "description": "",
+        "tags": [
+          "speaking",
+          "devops"
+        ],
+        "source_url": "https://www.devopsdays.org/events/2017-minneapolis/program/kristen-womack/"
+      },
+      {
+        "title": "Product Analytics: Understanding What Customers Want Without Asking Them",
+        "event": "Just Product",
+        "date": "2017-05-17",
+        "description": "",
+        "tags": [
+          "speaking",
+          "product"
+        ],
+        "source_url": "https://www.eventbrite.com/e/just-product-talks-3-tickets-32875106328?ref=jpdotco"
+      },
+      {
+        "title": "Logs & Alerts, Not Just for Ops: Techniques to Improve your Product Roadmap",
+        "event": "Product Conf",
+        "date": "2017-05-08",
+        "description": "",
+        "tags": [
+          "speaking",
+          "product"
+        ],
+        "source_url": "https://www.kristenwomack.io/devjam-product-conf-2017"
+      },
+      {
+        "title": "Science on Screen: Marie Curie -- The Courage of Knowledge",
+        "event": "Film Society of Minneapolis St. Paul",
+        "date": "2017-04-23",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "http://prod3.agileticketing.net/WebSales/pages/info.aspx?evtinfo=275639~163a5c15-c3ae-4635-ba12-bbe995cbeb29&epguid=87ecbce5-5fcd-406d-8bcb-88fa6bb54965&"
+      },
+      {
+        "title": "The Intersection of Product Management, Development and Analytics",
+        "event": "PDMA Minnesota Chapter",
+        "date": "2017-02-22",
+        "description": "",
+        "tags": [
+          "speaking",
+          "product"
+        ],
+        "source_url": "https://www.eventbrite.com/o/pdma-minnesota-chapter-8665778780"
+      },
+      {
+        "title": "Women in Engineering and Science Panel",
+        "event": "Target",
+        "date": "2016-05-26",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": "https://www.eventbrite.com/e/women-in-engineering-and-science-at-target-meetup-5262016-tickets-25127712665"
+      },
+      {
+        "title": "Twin Cities Startup Weekend Education Mentor",
+        "event": "#TCSWEDU",
+        "date": "2016-02-26",
+        "description": "",
+        "tags": [
+          "speaking",
+          "startup"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "An Open Discussion on Closing the Gender Gap",
+        "event": "The Nerdery",
+        "date": "2015-11-01",
+        "description": "",
+        "tags": [
+          "panel"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Personas for APIs",
+        "event": "API Strategy and Practice 2015",
+        "date": "2015-10-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": ""
+      },
+      {
+        "title": "Intros and Coffee, Sonnets and Haikus",
+        "event": "A Day In The Life of a Geekette",
+        "date": "2015-08-12",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "http://www.eventbrite.com/e/a-day-in-the-life-of-a-geekette-tickets-17907886972"
+      },
+      {
+        "title": "How Success Happens",
+        "event": "Mpls MadWomen",
+        "date": "2014-01-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": "http://www.themplsegotist.com/news/local/2014/june/23/mpls-madwomen"
+      },
+      {
+        "title": "Google Women Techmakers / Product Management",
+        "event": "",
+        "date": "2014-03-24",
+        "description": "",
+        "tags": [
+          "speaking",
+          "product"
+        ],
+        "source_url": "https://www.womentechmakers.com/"
+      },
+      {
+        "title": "DevJam Practical Agility / Designing Sane Deployments",
+        "event": "",
+        "date": "2013-01-01",
+        "description": "",
+        "tags": [
+          "speaking"
+        ],
+        "source_url": ""
+      }
+    ]
+  }
 }
