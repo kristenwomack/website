@@ -12,4 +12,5 @@ Quickstart
 
 Adding content
 
-- Add markdown files under `pages/talks/`, `pages/media/` with frontmatter: title, date, tags, source_url, canonical_id (optional)
+- Add talks to `data/content_by_topic.json`; the Talks page is `pages/talks.md`.
+- Add media pages under `pages/media/` with frontmatter: title, date, tags, source_url, canonical_id (optional).

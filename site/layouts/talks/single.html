@@ -6,7 +6,7 @@
   <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
 
   <h1>Talks</h1>
-  <p class="subtitle">speaking engagements and presentations across conferences and events</p>
+  <p class="subtitle">{{ .Content | plainify | lower }}</p>
 
   <ul class="cards">
     {{ range .Site.Data.content_by_topic.talks }}
