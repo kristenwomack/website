@@ -3,6 +3,40 @@
     "upcoming": [],
     "past": [
       {
+        "title": "Architecture as strategy, an extensible developer CLI",
+        "event": "apidays Toronto",
+        "date": "2026-09-09",
+        "description": "",
+        "tags": [
+          "speaking",
+          "api"
+        ],
+        "source_url": "https://speakerdeck.com/kristenwomack/architecture-as-strategy-an-extensible-developer-cli"
+      },
+      {
+        "title": "Designing for developers who've changed how they build: lessons from Azure Developer CLI data",
+        "event": "apidays Toronto",
+        "date": "2026-09-09",
+        "description": "",
+        "tags": [
+          "speaking",
+          "api",
+          "ai"
+        ],
+        "source_url": "https://speakerdeck.com/kristenwomack/designing-for-developers-whove-changed-how-they-build-lessons-from-azure-developer-cli-data"
+      },
+      {
+        "title": "Extend Azure Developer CLI (azd): From AI Agents to Custom Workflows",
+        "event": "Microsoft MVP Summit (internal)",
+        "date": "2026-03-27",
+        "description": "",
+        "tags": [
+          "speaking",
+          "ai"
+        ],
+        "source_url": ""
+      },
+      {
         "title": "Nordic APIs",
         "event": "Nordic APIs Platform Summit",
         "date": "2025-10-01",
