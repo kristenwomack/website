@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Azure Developer CLI Extensions Framework",
+    "period": "2025",
+    "start_year": 2025,
+    "description": "I led the product work for an extensible plugin architecture for the Azure Developer CLI (azd), giving developers a way to create custom commands and workflows. The alpha release added registry support, extension lifecycle management, and integration points for AI tools and third-party services.",
+    "tags": ["Azure", "developer tools", "CLI", "platforms"],
+    "links": [
+      {
+        "label": "Read about the azd extension framework",
+        "url": "https://devblogs.microsoft.com/azure-sdk/azd-extension-framework/"
+      }
+    ]
+  },
+  {
+    "title": "AI App Template Gallery",
+    "period": "2024",
+    "start_year": 2024,
+    "description": "I created a gallery of production-ready templates for building AI applications on Azure. The templates combined application code, infrastructure as code, CI/CD, and keyless authentication, with contributions from AI companies including LangChain, LlamaIndex, and Pinecone.",
+    "tags": ["Azure", "AI", "templates", "developer experience"],
+    "links": [
+      {
+        "label": "Explore the AI App Template Gallery",
+        "url": "https://devblogs.microsoft.com/azure-sdk/build-ai-applications-with-the-new-ai-app-template-gallery/"
+      }
+    ]
+  },
+  {
+    "title": "Microsoft Graph Developer Experience Tools",
+    "period": "2021-2023",
+    "start_year": 2023,
+    "description": "Microsoft Graph gives developers access to data and insights across Microsoft 365. Our team built Kiota, client libraries and SDKs across several programming languages, a UI SDK, an HTTP sandbox, documentation, and code samples to make Microsoft Graph and Microsoft 365 Copilot extensibility easier to use.",
+    "tags": ["Microsoft Graph", "APIs", "SDKs", "developer experience"],
+    "links": [
+      {
+        "label": "Explore Kiota",
+        "url": "https://github.com/microsoft/kiota"
+      },
+      {
+        "label": "Read the Microsoft Graph SDK overview",
+        "url": "https://learn.microsoft.com/en-us/graph/sdks/sdks-overview"
+      }
+    ]
+  },
+  {
+    "title": "Mina",
+    "period": "2017-2020",
+    "start_year": 2020,
+    "description": "I co-founded Mina, a market network that helped birth workers and families find each other. We raised $250,000, built a team, earned revenue, and developed corporate partnerships before closing at the end of 2020 amid the challenges of the pandemic, timing, and runway.",
+    "tags": ["founder", "market network", "birth work", "startups"],
+    "links": []
+  },
+  {
+    "title": "Hello Mom",
+    "period": "2016-2020",
+    "start_year": 2020,
+    "description": "Hello Mom began as a text service that sent encouragement to new parents and let them ask questions. The project unexpectedly went mini-viral, which led us to build a program to analyze a large volume of feedback. That learning became the foundation for Mina.",
+    "tags": ["founder", "messaging", "parenting", "experiments"],
+    "links": []
+  },
+  {
+    "title": "Plandini",
+    "period": "2019",
+    "start_year": 2019,
+    "description": "Working with the Bust Out team, I helped Plandini's founders create their first prototype: a summer planning app designed to make twelve weeks of childcare easier for families to organize.",
+    "tags": ["product strategy", "prototyping", "childcare"],
+    "links": [
+      {
+        "label": "Visit Bust Out",
+        "url": "https://bustout.com/"
+      }
+    ]
+  },
+  {
+    "title": "Jason Carter Clinical Trials Program",
+    "period": "2017",
+    "start_year": 2017,
+    "description": "Working with Bust Out and Be The Match, I helped build a platform honoring Jason Carter and his family. The application turns government clinical-trial data into a clearer way for people with blood cancers and blood disorders to find and understand trials that may extend their lives while they search for a cure.",
+    "tags": ["healthcare", "clinical trials", "data", "platforms"],
+    "links": [
+      {
+        "label": "Visit the Jason Carter Clinical Trials Program",
+        "url": "https://www.jasoncarterclinicaltrialsprogram.org/"
+      },
+      {
+        "label": "Visit Bust Out",
+        "url": "https://bustout.com/"
+      }
+    ]
+  },
+  {
+    "title": "Best Buy API Developer Program Transformation",
+    "period": "2011-2015",
+    "start_year": 2015,
+    "description": "I created the product vision, strategy, and roadmap for relaunching Best Buy's API program. We replaced an outsourced team of more than 100 people with an internal team of 23, saved $7.5 million, launched eight products, increased API key enrollment by 44%, and established the company's first automated continuous delivery pipeline.",
+    "tags": ["APIs", "developer programs", "product strategy", "platform transformation"],
+    "links": [
+      {
+        "label": "Visit the Best Buy developer portal",
+        "url": "https://developer.bestbuy.com/"
+      }
+    ]
+  },
+  {
+    "title": "Best Buy on IFTTT",
+    "period": "2014",
+    "start_year": 2014,
+    "description": "We built the Best Buy channel on IFTTT as an early step toward connecting retail data to the Internet of Things. The channel let people create alerts for price changes, product availability, new products, and playful connected-home events.",
+    "tags": ["IFTTT", "IoT", "APIs", "retail"],
+    "links": [
+      {
+        "label": "Price-change notification recipe",
+        "url": "https://web.archive.org/web/20150914223235/https://ifttt.com/recipes/201085-get-an-if-notification-when-the-price-changes-on-a-best-buy-product"
+      },
+      {
+        "label": "Product-availability email recipe",
+        "url": "https://web.archive.org/web/20160318164723/https://ifttt.com/recipes/239003-if-a-product-i-want-isn-t-available-at-best-buy-send-me-an-email-when-it-is-available"
+      },
+      {
+        "label": "New-products digest recipe",
+        "url": "https://web.archive.org/web/20150906124236/https://ifttt.com/recipes/200772-get-a-daily-digest-of-new-products-added-to-any-category-on-best-buy"
+      },
+      {
+        "label": "Best Buy blue Philips Hue recipe",
+        "url": "https://web.archive.org/web/20150914223617/https://ifttt.com/recipes/201082-set-my-lights-to-best-buy-blue-when-there-are-new-popular-products"
+      }
+    ]
+  },
+  {
+    "title": "Recommendations APIs",
+    "period": "2014",
+    "start_year": 2014,
+    "description": "We released a focused sample of Best Buy's recommendation capabilities as a public API. A few production customers adopted it, but broader demand stayed limited, so we kept the product lean and redirected time and funding toward experiments with more traction.",
+    "tags": ["APIs", "recommendations", "experimentation", "retail"],
+    "links": [
+      {
+        "label": "Read the Recommendations API launch coverage",
+        "url": "https://web.archive.org/web/20151014030129/http://www.programmableweb.com/news/best-buy-launches-recommendations-api/2014/08/08"
+      },
+      {
+        "label": "Read the Recommendations API documentation",
+        "url": "https://web.archive.org/web/20160304044758/https://developer.bestbuy.com/documentation/recommendations-api"
+      }
+    ]
+  },
+  {
+    "title": "Query Builder",
+    "period": "2013",
+    "start_year": 2013,
+    "description": "We built Query Builder after watching hackathon developers lose time moving between their code and the Best Buy API documentation. The interactive tool made it faster to assemble and test valid product-search requests.",
+    "tags": ["APIs", "developer tools", "documentation", "hackathons"],
+    "links": [
+      {
+        "label": "Open Best Buy API Query Builder",
+        "url": "https://bestbuyapis.github.io/bby-query-builder/#/productSearch"
+      }
+    ],
+    "image": {
+      "src": "/images/query-builder-best-buy-api.jpg",
+      "alt": "Best Buy API Query Builder interface showing a product search request"
+    }
+  },
+  {
+    "title": "Wee Mentor",
+    "period": "2013",
+    "start_year": 2013,
+    "description": "At a 54-hour Startup Weekend, our team built a mobile-app concept for closing the gender gap through micro-mentorship, connecting mentors and mentees in the moments when support was most useful.",
+    "tags": ["mobile", "mentorship", "women in tech", "hackathons"],
+    "links": [
+      {
+        "label": "Watch the Startup Weekend pitch",
+        "url": "https://web.archive.org/web/20150419062444/http://tech.mn/news/2014/09/16/startup-weekend-twin-cities-6-final-pitches/"
+      },
+      {
+        "label": "See Wee Mentor on Twitter",
+        "url": "https://twitter.com/weementorapp"
+      }
+    ]
+  },
+  {
+    "title": "Best Buy eBay Store",
+    "period": "2011-2014",
+    "start_year": 2014,
+    "description": "I worked on the platform behind Best Buy's eBay store, which expanded the company's consumer marketplace reach. We added 27,000 products and quickly reached $20 million in revenue by using Product Catalog APIs for listings and Commerce APIs for product retirement and sales.",
+    "tags": ["marketplaces", "e-commerce", "APIs", "retail"],
+    "links": []
+  },
+  {
+    "title": "Best Buy dotcom Platform Transformation",
+    "period": "2010-2012",
+    "start_year": 2012,
+    "description": "I helped socialize the process and technical goals of Best Buy's early platform transformation. Team showcases grew attendance tenfold, quarterly releases that once took more than 24 hours became weekly releases lasting a few hours, and outsourced development moved in-house. My work included product catalog APIs, product pages, and product listing pages.",
+    "tags": ["platform transformation", "e-commerce", "agile", "APIs"],
+    "links": []
+  },
+  {
+    "title": "Magellan",
+    "period": "2010-2012",
+    "start_year": 2012,
+    "description": "Magellan transformed Best Buy's product catalog from a single-source database into a resilient key-value data platform that could serve the whole company. Our eight-person team used test-first development, pairing, Lean, and XP practices to deliver zero-downtime deployments, failover, redundancy, strong code quality, and a zero-bug backlog.",
+    "tags": ["platforms", "product catalog", "TDD", "Lean", "XP"],
+    "links": []
+  },
+  {
+    "title": "Boston Scientific Latitude CRM",
+    "period": "2010",
+    "start_year": 2010,
+    "description": "As a systems analyst, I worked with business owners in Japan and engineers in the United States to define requirements for a CRM serving heart patients with implanted devices and their doctors. The system supported at-home device check-ins, helping doctors monitor results while reducing patient trips to the clinic.",
+    "tags": ["healthcare", "medical devices", "CRM", "systems analysis"],
+    "links": []
+  },
+  {
+    "title": "Boston Scientific iPad Rollout",
+    "period": "2010",
+    "start_year": 2010,
+    "description": "When the iPad first launched, we built an application center and rollout program for medical-device sales representatives. The devices gave teams fast access to reference material in operating rooms where laptop startup time and limited Wi-Fi made existing tools difficult to use.",
+    "tags": ["healthcare", "mobile", "field enablement", "operations"],
+    "links": []
+  },
+  {
+    "title": "Best Buy Mobile Phone Upgrade Checker",
+    "period": "2008-2010",
+    "start_year": 2010,
+    "description": "We built a three-week prototype that helped store employees check a customer's phone-upgrade eligibility during the holiday rush. Customers could opt in to text reminders, and the experiment grew into an open API used across stores and bestbuy.com with direct carrier integrations.",
+    "tags": ["mobile", "APIs", "prototyping", "retail"],
+    "links": []
+  },
+  {
+    "title": "mIQ",
+    "period": "2009",
+    "start_year": 2009,
+    "description": "I managed the second release of mIQ, a mobile-to-web connected-services platform built with Seattle startup Dashwire for Best Buy. It let people manage a phone from a computer, back up data, and move to a new device without losing their information.",
+    "tags": ["mobile", "connected services", "startups", "product delivery"],
+    "links": [
+      {
+        "label": "Read about HTC's acquisition of Dashwire",
+        "url": "https://venturebeat.com/business/htc-buys-dashwire/"
+      }
+    ]
+  },
+  {
+    "title": "Best Buy Mobile BEAST and Carrier Activation Platform",
+    "period": "2008-2010",
+    "start_year": 2010,
+    "description": "We built a private API platform connecting Best Buy Mobile with major carriers in the United States and Canada. The platform powered guided phone sales and activation, with work spanning sales flows, deployments, risk management, and revenue assurance across a large multi-team program.",
+    "tags": ["mobile", "APIs", "carrier integrations", "program delivery"],
+    "links": []
+  }
+]
