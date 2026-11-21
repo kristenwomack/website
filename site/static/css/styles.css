@@ -440,6 +440,15 @@ body.h-interior .project-links li {
     flex-direction: column;
     gap: 0.2rem;
   }
+
+  body.h-interior .project-links {
+    display: block;
+  }
+
+  body.h-interior .project-links a {
+    display: block;
+    padding: 0.75rem 0;
+  }
 }
 
 /* ────────────────────────────────────────────────────────────────────
