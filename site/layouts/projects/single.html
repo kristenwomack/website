@@ -1,0 +1,57 @@
+{{ define "title" }}Projects - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="page">
+
+  <p><a class="back" href="{{ "/" | relURL }}">← back to home</a></p>
+
+  <h1>Projects &amp; Portfolio</h1>
+  <div class="project-intro">
+    {{ .Content }}
+  </div>
+
+  <ul class="project-list">
+    {{ range sort .Site.Data.projects "start_year" "desc" }}
+      {{ $project := . }}
+      <li>
+        <article class="project-card">
+          <div class="project-heading">
+            <h2>{{ .title }}</h2>
+            <span class="project-period">{{ .period }}</span>
+          </div>
+
+          {{ with .image }}
+            <img class="project-image" src="{{ .src | relURL }}" alt="{{ .alt }}" loading="lazy">
+          {{ end }}
+
+          <p>{{ .description }}</p>
+
+          {{ with .tags }}
+            <ul class="project-tags" aria-label="Project topics">
+              {{ range . }}<li>{{ . }}</li>{{ end }}
+            </ul>
+          {{ end }}
+
+          {{ with .links }}
+            {{ if gt (len .) 0 }}
+              <ul class="project-links" aria-label="Links for {{ $project.title }}">
+                {{ range . }}
+                  <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }} <span aria-hidden="true">↗</span></a></li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          {{ end }}
+        </article>
+      </li>
+    {{ end }}
+  </ul>
+
+  <p class="note">
+    <a href="{{ "/" | relURL }}">home</a> &nbsp;·&nbsp;
+    <a href="{{ "/about/" | relURL }}">about</a> &nbsp;·&nbsp;
+    <a href="{{ "/writing/" | relURL }}">writing</a> &nbsp;·&nbsp;
+    <a href="{{ "/talks/" | relURL }}">talks</a>
+  </p>
+
+</div>
+{{ end }}

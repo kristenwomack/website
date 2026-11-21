@@ -13,4 +13,5 @@ Quickstart
 Adding content
 
 - Add talks to `data/content_by_topic.json`; the Talks page is `pages/talks.md`.
+- Add portfolio entries to `data/projects.json`; the Projects page is `pages/projects.md`.
 - Add media pages under `pages/media/` with frontmatter: title, date, tags, source_url, canonical_id (optional).
