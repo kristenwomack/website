@@ -9,7 +9,11 @@
         "description": "",
         "tags": [
           "speaking",
-          "api"
+          "api",
+          "architecture",
+          "strategy",
+          "developer-tools",
+          "azure"
         ],
         "source_url": "https://speakerdeck.com/kristenwomack/architecture-as-strategy-an-extensible-developer-cli"
       },
@@ -21,7 +25,10 @@
         "tags": [
           "speaking",
           "api",
-          "ai"
+          "ai",
+          "developer-experience",
+          "personas",
+          "azure"
         ],
         "source_url": "https://speakerdeck.com/kristenwomack/designing-for-developers-whove-changed-how-they-build-lessons-from-azure-developer-cli-data"
       },
@@ -32,7 +39,11 @@
         "description": "",
         "tags": [
           "speaking",
-          "ai"
+          "ai",
+          "azure",
+          "developer-tools",
+          "agents",
+          "automation"
         ],
         "source_url": ""
       },
