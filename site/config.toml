@@ -1,4 +1,5 @@
-baseURL = "https://kristenwomack.github.io/"
+baseURL = "https://kristenwomack.github.io/website/"
+canonifyURLs = true
 languageCode = "en-us"
 title = "Kristen Womack"
 contentDir = "pages"
